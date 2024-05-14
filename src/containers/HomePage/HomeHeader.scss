@@ -1,0 +1,198 @@
+.home-header-container {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  height: 80px;
+  // border: 5px solid red;
+  width: 100%;
+  padding: 0 10px;
+  z-index: 100;
+  .home-header-content {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    .home-header-left {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      margin-right: -128px;
+      margin-left: 106px;
+      .logo {
+        height: 79%;
+        width: 41%;
+        cursor: pointer;
+        margin-left: 22px;
+      }
+      i {
+        font-size: 25px;
+        color: grey;
+        cursor: pointer;
+      }
+    }
+    .home-header-center {
+      width: 55%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .center-child {
+        .subChild {
+          font-size: 12px;
+        }
+      }
+    }
+    .home-header-right {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .support {
+        padding-right: 50px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        i {
+          font-size: 15px;
+          margin-right: 5px;
+        }
+      }
+      .flagLanguageVN {
+        cursor: pointer;
+
+        &.active {
+          opacity: -0.2;
+          span {
+            color: red;
+          }
+        }
+      }
+      .flagLanguageEN {
+        cursor: pointer;
+        margin: 0 10px;
+
+        &.active {
+          opacity: -0.2;
+          span {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
+
+.home-header-banner {
+  background-image: url("../../assets/banner.jpg");
+  height: 685px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  // opacity: 0.8;
+  .content-north {
+    height: 65%;
+    // background: linear-gradient(black, gray);
+
+    .title1 {
+      text-align: center;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px black;
+      margin-bottom: 10px;
+      margin-top: 30px;
+      color: white;
+    }
+
+    .title2 {
+      text-align: center;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px black;
+      margin-bottom: 15px;
+      color: white;
+      margin-bottom: 15px;
+    }
+
+    .search {
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: orange;
+      i {
+        margin: 0 30px;
+      }
+      input {
+        height: 30px;
+        width: 360px;
+        background: transparent;
+        border: none;
+        outline: none;
+      }
+      &:hover {
+        border-radius: 50px;
+      }
+    }
+  }
+
+  .content-south {
+    padding-bottom: 50px;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    .options {
+      display: flex;
+      text-align: center;
+      gap: 50px;
+      justify-content: center;
+      .options-child {
+        background-color: rgb(190, 188, 188);
+        padding-top: 85px;
+        border-radius: 10%;
+        width: 281px;
+        height: 364px;
+        .icon-child {
+          background: rgb(225, 14, 14);
+          width: 87px;
+          height: 83px;
+          padding: 10px;
+          border-radius: 50%;
+          text-align: center;
+          margin: -21px auto;
+        }
+        .text-child {
+          font-size: 17px;
+          font-weight: 500;
+          cursor: pointer;
+          padding-top: 37px;
+          font-weight: bold;
+          &:hover {
+            color: red;
+          }
+        }
+        .text-name {
+          font-size: 17px;
+          font-weight: 500;
+          cursor: pointer;
+          padding-top: 15px;
+          font-weight: bold;
+          &:hover {
+            color: red;
+          }
+        }
+        .text-describe {
+          font-size: 17px;
+          font-weight: 500;
+          cursor: pointer;
+          padding: 15px;
+
+          &:hover {
+            color: rgb(9, 68, 169);
+          }
+        }
+      }
+    }
+  }
+}

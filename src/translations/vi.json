@@ -1,0 +1,41 @@
+{
+  "HomeHeader": {
+    "Specialist": "Quy trình Thuê/ Đặt phòng",
+    "FindDoctorsBySpecialty": "Hướng Dẫn sử dụng",
+    "HealthFacilities": "Quy trình Nhận/Trả Phòng",
+    "ChooseAHospitalOrClinic": "Hướng Dẫn sử dụng",
+    "Doctor": "Quy trình Tạo tài khoản",
+    "ChooseAGoodDoctor": "Hướng Dẫn sử dụng",
+    "MedicalPackage": "Các quy trình khác",
+    "GeneralHealthExamination": "Hướng Dẫn sử dụng",
+    "Support": "Hỗ trợ",
+    "Welcome": "Xin chào"
+  },
+  "Banner": {
+    "medicalPlatform": "Hướng dẫn sử dụng phần mềm",
+    "ComprehensiveHealthCare": "Đặt phòng An Nhiên Hotel",
+    "SpecializedExamination": "Trưởng nhóm/ Quản lý",
+    "RemoteExamination": "Thư ký",
+    "GeneralExamination": "Trưởng nhóm code",
+    "MedicalTests": "Người báo cáo",
+    "avatar1": "Đặt ra tầm nhìn.Lập kế hoạch và tổ chức các nhiệm vụ, đảm bảo đạt được mục tiêu của dự án",
+    "avatar2": "Quản lý tài liệu, ghi biên bản cuộc họp, hỗ trợ thông tin liên lạc và phối hợp giữa các thành viên dự án",
+    "avatar3": "Lãnh đạo, phân chia task, tham gia trực tiếp giải quyết vấn đề kỹ thuật",
+    "avatar4": "Thu thập, phân tích và báo cáo tiến độ dự án, cung cấp thông tin cập nhật cho các bên liên quan"
+  },
+  "Menu": {
+    "admin": {
+      "manager-user": "Quan li nguoi dung",
+      "manager-doctor": "Quan li bac si",
+      "manager-admin": "Quan li admin",
+      "crud": "CRUD user",
+      "crudRedux": "CRUD Redux",
+      "manager-clinic": "Quan li phong kham",
+      "clinic": "Phong kham",
+      "specialty": "Chuyen khoa",
+      "manage-specialty": "Quan li chuyen khoa",
+      "handBook": "Cam nang",
+      "manager-handBook": "Quan li cam nang"
+    }
+  }
+}

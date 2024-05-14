@@ -1,0 +1,22 @@
+.section-specialty{
+    .specialty-content{
+        .specialty-body{
+            .img{
+                .bg{
+                    width:278px;
+                    height: 150px;
+                    background-image:url('../../../assets/logo.jpg');
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: white;
+                }
+                
+                &:hover{
+                    color:aqua;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,20 @@
+.section-About {
+  margin: 20px;
+  .header {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+  }
+  .content {
+    display: flex;
+    gap: 10px;
+
+    .describe {
+      //   width: 40%;
+      // flex-direction: row;
+      text-align: justify;
+      padding: 100px;
+      font-size: 20px;
+    }
+  }
+}

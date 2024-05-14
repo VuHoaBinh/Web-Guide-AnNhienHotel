@@ -1,0 +1,72 @@
+.table{
+    border-collapse: collapse;
+    .header{
+        background-color:antiquewhite;
+        color: black;
+    }
+    .bodyTable{
+        cursor: pointer;
+        .trTable{
+            &:hover {
+                background-color: rgb(16, 198, 222);
+                color: red;
+            }
+            .btn-edit{
+                width:50px;
+                border: none;
+                outline: none;
+                background: transparent;
+                color: black;
+                &:hover{
+                    background-color: transparent !important;
+                    color: red;
+                }
+            }
+            .btn-delete{
+                width:50px;
+                border: none;
+                outline: none;
+                background: transparent;
+                color: black;
+                &:hover{
+                    background-color: transparent !important;
+                    color: red;
+                }
+            }
+        }
+    }
+}
+.model-user-container{
+    .modal-user-header{
+        button{
+            box-sizing: border-box;
+            background-color: transparent;
+            border: none;
+            color: white;
+        }
+    }
+    .modal-user-body{
+        display: flex;
+        gap:10px;
+        flex-wrap: wrap;
+        .input-container{
+            display: flex;
+            flex-direction: column;
+            width: 49%;
+            &.max-width-input{
+                width: 100%;
+            }
+            input,Input{
+                border-radius: 16px;
+                height: 30px;
+                outline: none;
+                border: 1px solid green;
+                padding: 0 14px;
+            }
+            .radioButtonSex Label{
+                margin-right: 42px;
+                
+            }
+        }  
+    }
+}

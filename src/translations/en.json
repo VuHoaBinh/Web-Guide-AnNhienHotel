@@ -1,0 +1,41 @@
+{
+  "HomeHeader": {
+    "Specialist": "Renting/Reservation Process",
+    "FindDoctorsBySpecialty": "Instructions",
+    "HealthFacilities": "Check-in/out Procedure",
+    "ChooseAHospitalOrClinic": "Instructions",
+    "Doctor": "Account Creation Process",
+    "ChooseAGoodDoctor": "Instructions",
+    "MedicalPackage": "Other procedures",
+    "GeneralHealthExamination": "Instructions",
+    "Support": "Support",
+    "Welcome": "Hello"
+  },
+  "Banner": {
+    "medicalPlatform": "Software User Guide",
+    "ComprehensiveHealthCare": "Reserve An Nhien Hotel",
+    "SpecializedExamination": "Leader / Manager Project",
+    "RemoteExamination": "Secretary",
+    "GeneralExamination": "Code Leader",
+    "MedicalTests": "Reporter",
+    "avatar1": "Sets vision, inspires and motivates team.Plans and organizes tasks, ensures project goals are met, focuses on details and development",
+    "avatar2": "Manage documents, record meeting minutes, support communication and coordination between project members",
+    "avatar3": "Lead, divide tasks, directly participate in solving technical problems",
+    "avatar4": "Collect, analyze and report project progress, providing updates to stakeholders"
+  },
+  "Menu": {
+    "admin": {
+      "manager-user": "Manage User",
+      "manager-doctor": "Manage doctor",
+      "manager-admin": "Manage admin",
+      "crud": "CRUD user",
+      "crudRedux": "CRUD Redux",
+      "manage-clinic": "Manage Clinic",
+      "clinic": "Clinic",
+      "specialty": "Specialty",
+      "manage-specialty": "Manage specialty",
+      "handBook": "Hand Book",
+      "manage-handBook": "Manage Hand Book"
+    }
+  }
+}
