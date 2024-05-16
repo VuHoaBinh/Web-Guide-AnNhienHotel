@@ -40,8 +40,8 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider npm start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider npm run build"
+    "start": "npm start",
+    "build": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
