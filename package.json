@@ -39,8 +39,8 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "start": "npm start",
-    "build": "npm run build"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
