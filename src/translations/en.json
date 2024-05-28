@@ -9,7 +9,9 @@
     "MedicalPackage": "Other procedures",
     "GeneralHealthExamination": "Instructions",
     "Support": "Support",
-    "Welcome": "Hello"
+    "Welcome": "Hello",
+    "More": "Xem Thêm",
+    "Describe": "An Nhiên Hotel, a 5-star paradise resort, nestled in the heart of the city with modern and luxurious design. From well-equipped rooms with full amenities to a variety of gourmet restaurants, An Nhiên Hotel promises to deliver an exceptional experience to guests. Guests can relax at the premium spa, enjoy the infinity pool with panoramic city views, or work out at the modern gym. The professional and enthusiastic staff are always ready to serve, ensuring that every need of the guests is perfectly met. Moreover, the hotel also provides special support services such as event organization, conferences, and private parties, offering unforgettable and unique experiences. An Nhiên Hotel is the ideal choice for those seeking comfort, prestige, and luxury in every detail."
   },
   "Banner": {
     "medicalPlatform": "Software User Guide",
@@ -22,20 +24,5 @@
     "avatar2": "Manage documents, record meeting minutes, support communication and coordination between project members",
     "avatar3": "Lead, divide tasks, directly participate in solving technical problems",
     "avatar4": "Collect, analyze and report project progress, providing updates to stakeholders"
-  },
-  "Menu": {
-    "admin": {
-      "manager-user": "Manage User",
-      "manager-doctor": "Manage doctor",
-      "manager-admin": "Manage admin",
-      "crud": "CRUD user",
-      "crudRedux": "CRUD Redux",
-      "manage-clinic": "Manage Clinic",
-      "clinic": "Clinic",
-      "specialty": "Specialty",
-      "manage-specialty": "Manage specialty",
-      "handBook": "Hand Book",
-      "manage-handBook": "Manage Hand Book"
-    }
   }
 }
